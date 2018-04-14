@@ -1,9 +1,6 @@
 # Libraries used in the program:
 * Spring Boot - Used for Rest API, Dependency Injections.
-* Google Guava - For storing transactions in a Multimap. 
-#####NOTE: Spring also provide multimap but it has a multimap which stores a linkedlist against a key.
-#####Here, we do not need any link between the transactions.
-#####Google Guava provides multimap having arraylist as value of any key. So, is better for current requirement.
+* Google Guava - For storing transactions in a Multimap. (NOTE: Spring also provide multimap but it has a multimap which stores a linkedlist against a key. Here, we do not need any link between the transactions. Google Guava provides multimap having arraylist as value of any key. So, is better for current requirement.)
 
 # Assumptions:
 * Sum and Average stored in Statistics are rounded to two decimals.
